@@ -1,0 +1,13 @@
+.App footer {
+text-align: center;
+}
+
+.App footer>a {
+text-decoration: none;
+font-weight: bold;
+color: #6d42c7;
+}
+
+.App footer>a:hover {
+    color: #6d42c7;
+}
