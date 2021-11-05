@@ -1,13 +1,25 @@
+/* .App {
+  max-width: 700px;
+} */
+
+.App input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 25px;
+}
+
 .App footer {
-text-align: center;
+  text-align: center;
 }
 
-.App footer>a {
-text-decoration: none;
-font-weight: bold;
-color: #6d42c7;
+.App footer > a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #6d42c7;
 }
 
-.App footer>a:hover {
-    color: #6d42c7;
+.App footer > a:hover {
+  color: #6d42c7;
 }
