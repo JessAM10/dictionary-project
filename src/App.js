@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <h1 className="text-center">Dictionary</h1>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset"/>
         <footer>
           <a
             href="https://github.com/JessAM10/dictionary-project"

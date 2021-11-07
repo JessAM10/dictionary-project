@@ -1,0 +1,15 @@
+.Meaning h3 {
+    font-family: 'Fondamento', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.Meaning p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.Meaning .example {
+    font-style: italic;
+    opacity: 0.9;
+}
