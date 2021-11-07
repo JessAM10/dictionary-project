@@ -7,8 +7,8 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1 className="text-center">Dictionary</h1>
-        <Dictionary defaultKeyword="sunset"/>
+        <Dictionary defaultKeyword="sunset" />
+        <section>
         <footer>
           <a
             href="https://github.com/JessAM10/dictionary-project"
@@ -18,7 +18,8 @@ export default function App() {
             Coded
           </a>{" "}
           by Jessica Allard
-        </footer>
+          </footer>
+        </section>
       </div>
     </div>
   );

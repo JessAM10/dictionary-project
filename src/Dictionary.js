@@ -37,9 +37,14 @@ if (loaded){
   return (
     <div className="Dictionary">
       <section>
+        <h1 className="text-center">Dictionary</h1>
         <form onSubmit={handleSubmit}>
           <h4>What word do you want to look up?</h4>
-          <input type="search" onChange={updateKeyword} defaultValue={props.defaultKeyword}/>
+          <input
+            type="search"
+            onChange={updateKeyword}
+            defaultValue={props.defaultKeyword}
+          />
         </form>
         <p className="suggested-words">
           suggested words: code, tea, weather...
@@ -47,7 +52,7 @@ if (loaded){
       </section>
       <Results results={results} />
     </div>
-    );
+  );
   } else load()
   return "Loading"
 }

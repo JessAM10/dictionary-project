@@ -1,9 +1,17 @@
 .Dictionary {
   margin: 30px;
 }
+.Dictionary h1 {
+  font-family: "Fondamento", cursive;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
 
 .Dictionary section {
   background-color: white;
+  max-width: 900px;
   display: block;
   margin: 50px auto;
   padding: 30px;
@@ -11,13 +19,14 @@
   box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.1);
 }
 
-.Dictionary h4, .suggested-words {
-font-family: 'Montserrat', sans-serif;
+.Dictionary h4,
+.suggested-words {
+  font-family: "Montserrat", sans-serif;
 }
 
 .Dictionary h4 {
-    font-size: 25xpx;
-    font-weight: bold;
+  font-size: 25xpx;
+  font-weight: bold;
 }
 
 .Dictionary .suggested-words {
