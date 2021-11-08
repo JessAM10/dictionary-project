@@ -2,5 +2,7 @@ body {
   margin: 50px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./images/paper.jpg);
+  /* background-color: #8f0e0e;*/
+  background-color: #bf382a;
+  /* background-color: #ea4c4c; */
 }
