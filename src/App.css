@@ -9,6 +9,7 @@
 .App footer {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
   letter-spacing: 1px;
   font-weight: bold;
 }
@@ -20,4 +21,15 @@
 
 .App footer > a:hover {
   color: #800080;
+}
+
+@media (width < 960px) {
+  .App input {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.App footer {
+  font-size: 12px;
+}
 }
