@@ -1,4 +1,4 @@
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faVolumeUp } from "@fortawesome/free-solid-svg-icons";
+import { faMoon, faVolumeUp } from "@fortawesome/free-solid-svg-icons";
 
-library.add(faVolumeUp);
+library.add(faVolumeUp, faMoon);

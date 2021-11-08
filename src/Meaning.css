@@ -1,15 +1,16 @@
 .Meaning h3 {
-    font-family: 'Fondamento', cursive;
-    font-size: 30px;
-    font-weight: bolder;
+  font-family: "Fondamento", cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: 1.5px;
 }
 
 .Meaning p {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
 }
 
 .Meaning .example {
-    font-style: italic;
-    opacity: 0.9;
+  font-style: italic;
+  opacity: 0.9;
 }

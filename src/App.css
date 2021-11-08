@@ -7,7 +7,7 @@
 }
 
 .App section {
-  background-color: white;
+  background-color: #046961;
   max-width: 900px;
   display: block;
   margin: 50px auto;
@@ -26,11 +26,11 @@
 
 .App footer > a {
   text-decoration: none;
-  color: #800080;
+  color: #FFCD50;
 }
 
 .App footer > a:hover {
-  color: #800080;
+  color: #FFCD50;
 }
 
 @media (width < 960px) {

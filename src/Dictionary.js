@@ -3,6 +3,7 @@ import Results from "./Results";
 import axios from "axios";
 import Photos from "./Photos";
 import "./Dictionary.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Dictionary(props) {
   const [keyword, setKeyword] = useState(props.defaultKeyword);
@@ -53,7 +54,10 @@ export default function Dictionary(props) {
     return (
       <div className="Dictionary">
         <section>
-          <h1 className="text-center">Dictionary</h1>
+          <h1 className="text-center">
+            Dictionary{" "}
+            <FontAwesomeIcon icon="moon" color="#FFCD50" size="md" />
+          </h1>
           <form onSubmit={handleSubmit}>
             <h4>What word do you want to look up?</h4>
             <input
