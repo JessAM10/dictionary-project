@@ -17,7 +17,15 @@ export default function App() {
             >
               Coded
             </a>{" "}
-            by Jessica Allard
+            by{" "}
+            <a
+              href="https://trusting-snyder-fb2caf.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+              title="Jessica Allard's portfolio"
+            >
+              Jessica Allard
+            </a>
           </footer>
         </section>
       </div>
