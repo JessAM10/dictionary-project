@@ -55,8 +55,7 @@ export default function Dictionary(props) {
       <div className="Dictionary">
         <section>
           <h1 className="text-center">
-            Dictionary{" "}
-            <FontAwesomeIcon icon="moon" color="#FFCD50" size="md" />
+            Dictionary <FontAwesomeIcon icon="moon" color="#FFCD50" size="md" />
           </h1>
           <form onSubmit={handleSubmit}>
             <h4>What word do you want to look up?</h4>

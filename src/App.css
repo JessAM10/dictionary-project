@@ -18,7 +18,7 @@
 
 .App footer {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -26,29 +26,28 @@
 
 .App footer > a {
   text-decoration: none;
-  color: #FFCD50;
+  color: #ffcd50;
 }
 
 .App footer > a:hover {
-  color: #FFCD50;
+  color: #ffcd50;
 }
 
 @media (width < 960px) {
   .App input {
-  padding: 5px;
-  font-size: 16px;
-  margin: 5px 0 5px;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px 0 5px;
+  }
 
-}
+  .App section {
+    max-width: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+  }
 
-.App section {
-  max-width: 100%;
-  display: block;
-  margin: 20px 0;
-  padding: 20px;
-}
-
-.App footer {
-  font-size: 12px;
-}
+  .App footer {
+    font-size: 12px;
+  }
 }
