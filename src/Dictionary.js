@@ -71,7 +71,7 @@ export default function Dictionary(props) {
           </p>
         </section>
         <Results results={results} />
-        <Photos photos={photos} />
+        <Photos photos={photos} keyword={keyword} />
       </div>
     );
   } else load();

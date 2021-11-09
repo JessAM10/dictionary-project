@@ -37,26 +37,26 @@
 
 @media (width < 960px) {
   .Dictionary {
-  margin: 5px;
-}
+    margin: 5px;
+  }
 
-.Dictionary h1 {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
+  .Dictionary h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 
-.Dictionary section {
-  max-width: 100%;
-  display: block;
-  margin: 20px 0;
-  padding: 20px;
-}
+  .Dictionary section {
+    max-width: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 20px;
+  }
 
-.Dictionary h4 {
-  font-size: 16px;
-}
+  .Dictionary h4 {
+    font-size: 16px;
+  }
 
-.Dictionary .suggested-words {
-  font-size: 11px;
-}
+  .Dictionary .suggested-words {
+    font-size: 11px;
+  }
 }

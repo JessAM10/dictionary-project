@@ -1,10 +1,9 @@
 .Photos img {
-    border-radius: 3px;
+  border-radius: 3px;
 }
 
 @media (width < 960px) {
-   .Photos section {
-       display: none;
-   }
-
+  .Photos section {
+    display: none;
+  }
 }
